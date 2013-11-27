@@ -16,16 +16,13 @@ body {
     position: fixed;
     opacity: 0.75;
     width: 100%;
-    text-align: right;
+    height: 4em;
 }
 
-nav li {
+.navbar-brand {
     display: inline-block;
     list-style: none;
-    text-align: right;
-    font-size: 25px;
-    padding: 5px;
-    padding-top: 10px;
+    font-size: 20px;
 }
 
 nav a:visited,
@@ -39,7 +36,14 @@ nav li:hover {
     background-color: #0F4DA8;
 }
 
-.logo {
-    float: right;
+.container {
+    text-align: right;
 }
 
+.logo {
+    float: left;
+    position: absolute;
+    left: 0px;
+    height: 4em;
+    width: 6em;
+}
