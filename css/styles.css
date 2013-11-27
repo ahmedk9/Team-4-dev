@@ -1,11 +1,10 @@
 
-body {
+body .homepage {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding: 10px;
     font-weight: bold;
-    background-image: url("../img/background.img");
 }
 
 
@@ -16,16 +15,13 @@ body {
     position: fixed;
     opacity: 0.75;
     width: 100%;
-    text-align: right;
+    height: 4em;
 }
 
-nav li {
+.navbar-brand {
     display: inline-block;
     list-style: none;
-    text-align: right;
-    font-size: 25px;
-    padding: 5px;
-    padding-top: 10px;
+    font-size: 20px;
 }
 
 nav a:visited,
@@ -39,10 +35,28 @@ nav li:hover {
     background-color: #0F4DA8;
 }
 
-.logo {
-    float: right;
+.container {
+    text-align: right;
 }
 
+.logo {
+    float: left;
+    position: absolute;
+    left: 0px;
+    height: 4em;
+    width: 6em;
+    border-radius: 5px;
+}
+
+.home-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    width: 30%;
+}
+
+<<<<<<< HEAD
 .container{
     padding: 10px;
 }
@@ -50,3 +64,8 @@ nav li:hover {
 .row-left{
     text-align: left;
 }
+=======
+.main-picture {
+
+}
+>>>>>>> 837443395f01d6a908d247f546ab5891432c7f5f
