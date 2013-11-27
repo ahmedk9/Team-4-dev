@@ -35,9 +35,6 @@ nav li:hover {
     background-color: #0F4DA8;
 }
 
-.container {
-    text-align: right;
-}
 
 .logo {
     float: left;
@@ -56,16 +53,15 @@ nav li:hover {
     width: 30%;
 }
 
-<<<<<<< HEAD
-.container{
-    padding: 10px;
-}
 
 .row-left{
     text-align: left;
 }
-=======
+
+.contact-img{
+margin-top: 4em;
+}
 .main-picture {
 
 }
->>>>>>> 837443395f01d6a908d247f546ab5891432c7f5f
+
