@@ -12,20 +12,20 @@ body.homepage {
     background-repeat: repeat;
 }
 
-nav.navbar ul {
+.navbar {
     background-color: #052F6D;
     border-radius: 10px;
     top: 0;
     position: fixed;
     opacity: 0.75;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 nav li {
     display: inline-block;
     list-style: none;
-    text-align: center;
+    text-align: right;
     font-size: 25px;
     padding: 5px;
     padding-top: 10px;
