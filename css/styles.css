@@ -1,7 +1,6 @@
 
 body {
     background-color: white;
-    background-repeat: repeat;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding: 10px;
@@ -9,7 +8,8 @@ body {
 }
 
 body.homepage {
-    background-image: url(".../img/background.img");
+    background-image: url("../img/background.img");
+    background-repeat: repeat;
 }
 
 nav.navbar ul {
@@ -17,7 +17,7 @@ nav.navbar ul {
     border-radius: 10px;
     top: 0;
     position: fixed;
-    opacity: 1;
+    opacity: 0.75;
     width: 100%;
     text-align: center;
 }
@@ -35,9 +35,9 @@ nav a:visited,
 nav a:link,
 nav a:hover {
     text-decoration: none;
-    color: #0F4DA8;
+    color: black;
 }
 
 nav li:hover {
-    background-color: #437DD4;
+    background-color: #0F4DA8;
 }
