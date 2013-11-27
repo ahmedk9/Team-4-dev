@@ -1,0 +1,43 @@
+
+body {
+    background-color: white;
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+body.homepage {
+    background-image: url(".../img/background.img");
+}
+
+nav.navbar ul {
+    background-color: #052F6D;
+    border-radius: 10px;
+    top: 0;
+    position: fixed;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+nav a:visited,
+nav a:link,
+nav a:hover {
+    text-decoration: none;
+    color: #0F4DA8;
+}
+
+nav li:hover {
+    background-color: #437DD4;
+}
