@@ -43,3 +43,10 @@ nav li:hover {
     float: right;
 }
 
+.container{
+    padding: 10px;
+}
+
+.row-left{
+    text-align: left;
+}
