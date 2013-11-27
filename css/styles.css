@@ -35,9 +35,6 @@ nav li:hover {
     background-color: #0F4DA8;
 }
 
-.container {
-    text-align: right;
-}
 
 .logo {
     float: left;
@@ -47,3 +44,27 @@ nav li:hover {
     width: 6em;
     border-radius: 5px;
 }
+<<<<<<< HEAD
+=======
+
+.home-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    width: 30%;
+}
+
+
+.row-left{
+    text-align: left;
+}
+
+.contact-img{
+margin-top: 4em;
+}
+.main-picture {
+
+}
+
+>>>>>>> d1f609675ca8bbe674ded9e9d8614416e8bd04d3
