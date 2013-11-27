@@ -5,12 +5,9 @@ body {
     font-size: 18px;
     padding: 10px;
     font-weight: bold;
+    background-image: url("../img/background.img");
 }
 
-body.homepage {
-    background-image: url("../img/background.img");
-    background-repeat: repeat;
-}
 
 .navbar {
     background-color: #052F6D;
@@ -41,3 +38,8 @@ nav a:hover {
 nav li:hover {
     background-color: #0F4DA8;
 }
+
+.logo {
+    float: right;
+}
+
