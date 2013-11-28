@@ -68,5 +68,10 @@ height: 600px;
 
 }
 
-=======
->>>>>>> b70b17e85d1e576045bbb1b26fde35e8bcb2ca4c
+.forum{
+    position: relative;
+}
+
+.ryan-pic{
+    height: 200px;
+}
