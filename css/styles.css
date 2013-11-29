@@ -7,7 +7,6 @@ body .homepage {
     font-weight: bold;
 }
 
-
 .navbar {
     background-color: #052F6D;
     border-radius: 10px;
@@ -46,7 +45,6 @@ nav li:hover {
     width: 6em;
     border-radius: 5px;
 }
-<<<<<<< HEAD
 
 .home-img {
     display: block;
@@ -63,7 +61,10 @@ nav li:hover {
 
 .contact-img{
 height: 600px;
+width: 600px;
+
 }
+
 .main-picture {
 
 }
@@ -74,4 +75,20 @@ height: 600px;
 
 .ryan-pic{
     height: 200px;
+    width: 300px;
+}
+
+.cont-page-img{
+    height: 1000px;
+    width: 600px;
+
+}
+.contact-container{
+    background-color: #58584C;
+}
+
+.contact-info{
+    color: #052F6D;
+    font-size: 18px;
+
 }
