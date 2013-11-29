@@ -3,7 +3,6 @@ body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding: 10px;
     font-weight: bold;
 }
 
@@ -88,4 +87,8 @@ width: 600px;
     color: #052F6D;
     font-size: 18px;
 
+}
+
+.contact-container{
+    background-color: #B5DAFF;
 }
