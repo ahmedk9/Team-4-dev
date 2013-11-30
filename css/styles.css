@@ -2,8 +2,8 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    /*font-size: 18px;
+    font-weight: bold;*/
 }
 
 
@@ -120,3 +120,17 @@ width: 600px;
 .contact-container{
     background-color: #B5DAFF;
 }
+
+
+
+#bio-container {
+    margin: 0 auto;
+    padding: 40px 20px 40px 20px;
+    width: 980px;
+}
+
+.img-responsive {
+    width: 980px;
+    height: 585px;
+}
+
