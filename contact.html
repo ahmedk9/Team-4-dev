@@ -46,31 +46,25 @@
 			 		E: <a href="mailto: ryan@ryanclevelandservices.com">ryan@ryanclevelandservices.com</a> 
 			 	</p>
 
-			 	<form>
-				<h3>You can leave a message using the contact form below.</h3>
-				<div class="form-group">
-	                <label for="name">Your Name: </label>
-	                <input type="text" class="form-control form-name"  required>
-	            </div> <br>
-			 	<div class="form-group">
-	                <label for="Email">Your E-mail:</label>
-	                <input type="email" class="form-control form-email"  required>
-	            </div> <br>
-				<div class="form-group">
-	                <label for="Subject">Subject:</label>
-	                <input type="text" class="form-control form-subject"  required>
-	            </div> <br>
-				<div class="form-group">
-	                <label for="Message">Message:</label>
-	                <br>
-	                <textarea rows="10" cols="60">
-					</textarea>
+			 	
+                 <form method="post" name="myemailform" action="form-to-email.php">
 
-	                <br>
-				 <br>
-				<button type="button" class="btn btn-primary">Submit</button>
+                  <div class="form-group">
+                      Enter Name: <input type="text" name="name" class="form-control form-name">
+                  </div> <br>
 
-			 	</form>
+                  <div class="form-group">
+                      Enter Email Address:    <input type="text" name="email" class="form-control form-email" >
+                  </div> <br>
+
+                  <div class="form-group">
+                      Enter Message:  
+                      <br> <textarea name="message" rows="10" cols="58"></textarea>
+                  </div> <br>
+                  
+                      <input type="submit" value="submit">
+                      </form>
+
 
 			 </div>
 			  <div class="col-md-1">
