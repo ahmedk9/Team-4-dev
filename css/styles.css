@@ -6,6 +6,18 @@ body {
     font-weight: bold;
 }
 
+.home-image {
+    width: 90%;
+    height: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.homepage {
+    background-image: url(../img/notebook.png);
+}
+
 .navbar {
     background-color: #052F6D;
     border-radius: 10px;
