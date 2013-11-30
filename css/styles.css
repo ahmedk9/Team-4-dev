@@ -7,10 +7,16 @@ body {
 }
 
 .home-image {
-    width: 90%;
-    height: 80%;
+    width: 55em;
+    height: 30em;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5em;
+    display: block;
+    position: relative;
+}
+
+.h2{
 
 }
 
