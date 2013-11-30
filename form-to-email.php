@@ -1,3 +1,6 @@
+<html>
+<body>
+
 <?php
 if(!isset($_POST['submit']))
 {
@@ -59,3 +62,6 @@ function IsInjected($str)
 }
    
 ?> 
+
+</body>
+</html>
