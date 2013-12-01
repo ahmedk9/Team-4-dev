@@ -44,10 +44,17 @@ body {
     height: 4em;
 }
 
-.text-box {
-    width: 50%;
-    height: 80%;
-    background-color: gray;
+.title {
+    position: relative;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box {
+    position: absolute;
+     background-color: black;
+    top: 5em;
 }
 
 .navbar-brand {
@@ -59,9 +66,14 @@ body {
 
 nav a:visited,
 nav a:link,
-nav a:hover {
+nav a:hover, 
+{
     text-decoration: none;
     color: black;
+}
+
+nav a:active {
+    font-weight: bold;
 }
 
 nav li:hover {
