@@ -2,14 +2,10 @@
 <body>
 
 <?php
-if(!isset($_POST['submit']))
-{
-	//This page should not be accessed directly. Need to submit the form.
-	echo "error; you need to submit the form!";
-}
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
+$header = $_POST['header'];
 
 //Validate first
 if(empty($name)||empty($visitor_email)) 
@@ -24,8 +20,8 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'ak_ferrari@hotmail.com';//<== update the email address
-$email_subject = "New Form submission";
+$email_from = '$visitor_email';//<== update the email address
+$email_subject = "$header";
 $email_body = "You have received a new message from the user $name.\n".
     "Here is the message:\n $message".
     
@@ -36,7 +32,6 @@ $headers .= "Reply-To: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
 echo "Thank you for your email, Ryan will reply shortly";
-// header('Location: thank-you.html');
 
 
 // Function to validate against any email injection attempts
