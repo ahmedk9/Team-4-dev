@@ -1,8 +1,13 @@
-
+@import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    /*font-size: 18px;
+    font-weight: bold;*/
+>>>>>>> eab135d27c6c2d441dfcc49318b2e2bcb9abee6e
 }
 
 
@@ -96,11 +101,11 @@ width: 600px;
 
 .ryan-pic{
     height: 200px;
-    width: 300px;
+    width: 200px;
 }
 
 .cont-page-img{
-    height: 1000px;
+    height: 400px;
     width: 600px;
 
 }
@@ -112,5 +117,23 @@ width: 600px;
 }
 
 .contact-container{
-    background-color: #B5DAFF;
+   background-image: url(../img/notebook.png);
+}
+
+
+
+#bio-container {
+    margin: 0 auto;
+    padding: 40px 20px 40px 20px;
+    width: 980px;
+}
+
+.img-responsive {
+    width: 980px;
+    height: 585px;
+}
+
+.input-head{
+    font-family: 'Lusitana', sans-serif;
+    font-size: 16px;
 }
