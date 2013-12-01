@@ -5,7 +5,7 @@
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
-$header = $_POST['header'];
+$subject = $_POST['subject'];
 
 //Validate first
 if(empty($name)||empty($visitor_email)) 
@@ -20,10 +20,10 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = '$visitor_email';//<== update the email address
-$email_subject = "$header";
-$email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
+$email_from = "$visitor_email";//<== update the email address
+$email_subject = "$subject";
+$email_body = "You have received a new message from: $name.\n".
+    "Here is the message:\n $message";
     
 $to = "ak_ferrari@hotmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
