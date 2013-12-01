@@ -30,8 +30,9 @@ body {
     padding: 5px;
 }
 .main {
-    background: url(../img/home-img.jpg) no-repeat center center fixed; 
+    background: url(../img/main-img.jpg) no-repeat center center fixed; 
     background-size: cover;
+    opacity: 0.5;
 }
 
 
@@ -70,10 +71,6 @@ nav a:hover,
 {
     text-decoration: none;
     color: black;
-}
-
-nav a:active {
-    font-weight: bold;
 }
 
 nav li:hover {
