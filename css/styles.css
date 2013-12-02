@@ -52,6 +52,7 @@ top: 50%;
     opacity: 0.75;
     width: 100%;
     height: 4em;
+    margin: 0 auto;
 }
 
 .col-md-8 {
@@ -81,6 +82,7 @@ top: 50%;
     list-style: none;
     font-size: 20px;
     line-height: 2em;
+    float: right;
 }
 
 nav a:visited,
@@ -110,6 +112,10 @@ nav li:hover {
 
 .row-left{
     text-align: left;
+}
+
+.row-contact{
+    margin-top: 5em;
 }
 
 .contact-img{
