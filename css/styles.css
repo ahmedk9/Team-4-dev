@@ -13,19 +13,22 @@ body {
 }
 
 
-.intro {
+.page-header {
     font-family: 'Roboto Slab';
     font-size: 50px;
-    top: 60%;
-    left: 60%;
-    position: fixed;
+    text-align: center;
+    margin-top: 30%;
+}
+
+@media handheld {
+  .logo-2 { visibility: hidden; }
 }
 
 .border-top {
-color: #052F6D;
+background-color: #052F6D;
 height: 120px;
-margin-top: 50%;
-position: fixed;
+top: 50%;
+ margin-top: -50px;
 
 }
 
@@ -33,18 +36,13 @@ position: fixed;
 .logo-2 {
     width: 150px;
     height: 150px;
-      position: fixed;
-  top: 50%;
-  left: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
   margin-top: -50px;
   margin-left: -100px;
     border-radius: 40px;
     border: #052F6D solid 2px;
-}
-
-.main-img {
-    width: 100%;
-    height: 100%;
 }
 
 .navbar {
@@ -55,19 +53,28 @@ position: fixed;
     width: 100%;
     height: 4em;
 }
-.box {
-    margin-top: 5em;
+
+.col-md-8 {
+    top: 75px;
+    border: black solid 4px;
+    padding: 0px;
 }
 
-.title {
+.text-box {
+    background-color: gray;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.col-md-4 {
+    top: 75px;
+    background-color: white;
+}
+
+.main-img {
     position: relative;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-family: 'Montserrat Subrayada';
-    background-color: black;
+    width: 100%;
 }
-
 
 .navbar-brand {
     display: inline-block;
