@@ -84,7 +84,9 @@ top: 50%;
     line-height: 2em;
     float: right;
 }
-
+nav li{
+    display: inline-block;
+}
 nav a:visited,
 nav a:link,
 nav a:hover, 
