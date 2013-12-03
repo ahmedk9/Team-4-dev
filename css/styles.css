@@ -179,3 +179,47 @@ width: 600px;
     font-family: 'Lusitana', sans-serif;
     font-size: 16px;
 }
+
+nav ul{
+        background-color: black;
+        width: 100%;
+        margin: 0 auto;
+        height: 4em;
+        border-radius: 5px;
+
+    }
+
+nav li{
+    display: inline-block;
+    text-align: right;
+    
+
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 110%;
+    text-align: right;
+
+
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: grey;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.nav-links{
+    text-align: right;
+
+    width: 100%;
+}
