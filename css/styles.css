@@ -128,7 +128,7 @@ width: 600px;
 
 .cont-page-img{
     height: 400px;
-    width: 600px;
+    width: 590px;
 
 }
 
@@ -185,4 +185,12 @@ nav a:hover{
     text-align: right;
 
     width: 100%;
+}
+
+.border-div {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
 }
