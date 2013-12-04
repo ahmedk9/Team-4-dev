@@ -4,12 +4,7 @@
 body {
     background-image: url(../img/notebook.png);
     font-family: 'Open Sans', sans-serif;
-<<<<<<< HEAD
     font-size: 18px;
-=======
-    /*font-size: 18px;
-    font-weight: bold;*/
->>>>>>> eab135d27c6c2d441dfcc49318b2e2bcb9abee6e
 }
 
 
@@ -40,7 +35,6 @@ top: 50%;
     border: #052F6D solid 2px;
 }
 
-
 .col-md-12 {
     border: black solid 4px;
     margin: 0px;
@@ -50,27 +44,23 @@ top: 50%;
     position: absolute;
     z-index: 999;
     color: #FFF;
-    bottom: 87%;
+    bottom: 85%;
     background-color: rgba(0,0,0,.5);
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.col-md-6, 
+
 .left {
-    top: 75px;
     background-color: white;
 }
 
-.col-md-6,
 .right {
     background-color: black;
-    color: white;
 }
 
 .main-img {
-    position: relative;
     opacity: 0.8;
 }
 
@@ -152,10 +142,6 @@ width: 600px;
     width: 980px;
 }
 
-.img-responsive {
-    width: 980px;
-    height: 585px;
-}
 
 .input-head{
     font-family: 'Lusitana', sans-serif;
