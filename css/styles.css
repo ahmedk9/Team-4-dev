@@ -127,8 +127,8 @@ width: 600px;
 }
 
 .cont-page-img{
-    height: 400px;
-    width: 590px;
+    height: 60%;
+    width: 100%;
 
 }
 
@@ -193,4 +193,8 @@ nav a:hover{
     padding: 10px;
     border-width: 2px;
     border-color: black;
+}
+
+.col-md-5{
+    margin-left: 1em;
 }
