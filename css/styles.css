@@ -20,10 +20,6 @@ body {
     margin-top: 30%;
 }
 
-@media handheld {
-  .logo-2 { visibility: hidden; }
-}
-
 .border-top {
 background-color: #052F6D;
 height: 120px;
@@ -35,7 +31,7 @@ top: 50%;
 .logo-2 {
     width: 150px;
     height: 150px;
-    position: relative;
+    position: fixed;
     top: 50%;
     left: 50%;
   margin-top: -50px;
@@ -45,53 +41,44 @@ top: 50%;
 }
 
 
-.navbar {
-    background-color: black;
-    border-radius: 10px;
-    top: 0;
-    opacity: 0.8;
-    height: 4em;
-    margin: 0 auto;
-}
-
-.col-md-8 {
-    top: 75px;
+.col-md-12 {
     border: black solid 4px;
-    padding: 0px;
+    margin: 0px;
 }
 
 .text-box {
     position: absolute;
-    bottom: 80%;
-    left: 30%;
-    color: white;
-    background-color: black;
+    z-index: 999;
+    color: #FFF;
+    bottom: 87%;
+    background-color: rgba(0,0,0,.5);
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.col-md-4 {
+.col-md-6, 
+.left {
     top: 75px;
     background-color: white;
-    padding: 19px;
 }
 
-.bottom {
-    margin-top: 5px;
+.col-md-6,
+.right {
+    background-color: black;
+    color: white;
 }
 
 .main-img {
     position: relative;
-    width: 100%;
     opacity: 0.8;
 }
 
 .navbar-brand {
     font-size: 20px;
     line-height: 2em;
-    float: right;
 }
+
 nav li{
     display: inline-block;
 }
@@ -131,10 +118,6 @@ nav li:hover {
 .contact-img{
 height: 600px;
 width: 600px;
-
-}
-
-.main-picture {
 
 }
 
@@ -179,20 +162,9 @@ width: 600px;
     font-size: 16px;
 }
 
-nav ul{
-        background-color: black;
-        width: 100%;
-        margin: 0 auto;
-        height: 4em;
-        border-radius: 5px;
-
-    }
-
 nav li{
     display: inline-block;
-    text-align: right;
-    
-
+    font-size: 18px;
 }
 
 nav a{
