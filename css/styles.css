@@ -51,6 +51,14 @@ top: 50%;
     padding-bottom: 15px;
 }
 
+.text-form {
+
+    color: #FFF;
+    background-color: rgba(0,0,0,.3);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
 
 .left {
     background-color: white;
@@ -101,9 +109,7 @@ nav li:hover {
     text-align: left;
 }
 
-.row-contact{
-    margin-top: 5em;
-}
+
 
 .contact-img{
 height: 600px;
