@@ -7,7 +7,7 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 $subject = $_POST['subject'];
 
-//Validate first
+//Validation
 if(empty($name)||empty($visitor_email)) 
 {
     echo "Name and email are mandatory!";
@@ -20,21 +20,20 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = "$visitor_email";//<== update the email address
+$email_from = "$visitor_email";
 $email_subject = "$subject";
 $email_body = "You have received a new message from: $name.\n".
     "Here is the message:\n $message";
     
-$to = "ak_ferrari@hotmail.com";//<== update the email address
+$to = "ak_ferrari@hotmail.com";//<== update this to RYAN'S email
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
-//Send the email!
+//Sending the email
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
 echo "Thank you for your email, Ryan will reply shortly";
 
 
-// Function to validate against any email injection attempts
 function IsInjected($str)
 {
   $injections = array('(\n+)',
