@@ -2,7 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Jura:400,600);
 
 body {
-    background-image: url(../img/notebook.png);
+    /*background-image: url(../img/notebook.png);*/
+    background-color: #f6f5ee;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
