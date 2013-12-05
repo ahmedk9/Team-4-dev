@@ -67,15 +67,10 @@ top: 50%;
     padding-right: 15px;
 }
 
-.left {
-    background-color: white;
-    border-right: blue solid 4px;
-}
-
-.right {
-    background-color: #0F4DA8;
-    border-left: blue solid 1px;
+.col-md-4 {
+    background-color: gray;
     color: black;
+    border-bottom: white solid 9px;
 }
 
 .main-img {
@@ -86,19 +81,16 @@ top: 50%;
     height: 75px;
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
+
 nav a:visited,
 nav a:link,
 nav a:hover, 
 {
     text-decoration: none;
     color: black;
-}
-
-.container {
-    text-align: right;
 }
 
 .logo {
