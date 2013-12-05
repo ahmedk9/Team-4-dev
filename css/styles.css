@@ -28,6 +28,10 @@ margin-top: -50px;
     border: #052F6D solid 2px;
 }
 
+.home-col-img:hover {
+    opacity: 0.7;
+}
+
 .col-md-12 {
     border: black solid 4px;
     height: 75%;
@@ -37,13 +41,18 @@ margin-top: -50px;
     -webkit-box-shadow: -5px -5px 5px #888;
     box-shadow: -5px -5px 5px #888;
 }
-
-.blue {
-    background-color: #052F6D
+.blue{
+    background-color: rgb(88,144,177);
+    color: white;
+    overflow: hidden; 
+    margin-top: 10px;
 }
 .home-col {
     background-color: black;
+    margin-top: 10px;
 }
+
+
 .main-img {
     opacity: 0.8;
     height: 75%;
@@ -71,13 +80,6 @@ margin-top: -50px;
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
-
-}
-
-.home-row {
-    background-color: gray;
-    color: black;
-    border-bottom: white solid 9px;
 }
 
 .main-img {
