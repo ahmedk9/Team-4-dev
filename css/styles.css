@@ -203,15 +203,15 @@ width: 600px;
 
 
 .navbar-header {
-    padding-right: 60px;
+    padding-right: 35px;
 }
 
 
 .navbar-logo img {
-    width: 50px;
+    width: 70px;
     border-radius: 3px;
     margin-top: 6px;
-    vertical-align: initial;
+    vertical-align: top;
 }
 
 .navbar-logo {
@@ -245,6 +245,12 @@ nav ul li:first-child {
     font-size: 15px;
     text-transform: uppercase;
 }
+
+
+.navbar-nav li a {
+    line-height: 31px;
+}
+
 
 
 nav a:link,
