@@ -203,3 +203,55 @@ nav a:hover{
 }
 =======
 >>>>>>> 3dc054891338ebe56b5a442fa4d6e3d0ab4a331b
+
+
+/*portfolio*/
+/*#thumb-carousel {
+    display: block;
+    text-align: start;
+    float: none;
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: auto;
+    width: 508px;
+    height: 72px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#thumbs {
+    text-align: left;
+    float: none;
+    position: absolute;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+    left: 0px;
+    margin: 0px;
+    width: 3048px;
+    height: 72px;
+    z-index: auto;
+}*/
+
+
+/*.carousel-slide {
+    width: 200px;
+    height: 100px;
+}*/
+
+
+#thumbs img {
+    width: 100px;
+    height: 60px;
+}
+
+#thumbs-carousel img {
+    width: 100px;
+    height: 60px;
+}
+
+
+
