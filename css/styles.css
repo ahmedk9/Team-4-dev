@@ -11,7 +11,7 @@ body {
 background-color: #052F6D;
 height: 120px;
 top: 50%;
- margin-top: -50px;
+margin-top: -50px;
 
 }
 
@@ -77,6 +77,7 @@ top: 50%;
     height: 75%;
 }
 
+<<<<<<< HEAD
 .navbar {
     height: 75px;
 }
@@ -91,6 +92,10 @@ nav a:hover,
 {
     text-decoration: none;
     color: black;
+=======
+.container {
+    text-align: right;
+>>>>>>> 1c28278f31ccbe05b5e3e50ab55ba22fe4a74ce7
 }
 
 .logo {
@@ -100,10 +105,6 @@ nav a:hover,
     width: 6em;
     border-radius: 3px;
         position: absolute
-}
-
-nav {
-    z-index: -1;
 }
 
 .row-left{
@@ -150,36 +151,6 @@ width: 600px;
 .input-head{
     font-family: 'Lusitana', sans-serif;
     font-size: 16px;
-}
-
-nav li{
-    display: inline-block;
-    font-size: 18px;
-}
-
-nav a{
-    display: inline-block;
-    padding: 10px;
-    color: #FFF;
-    font-size: 110%;
-    text-align: right;
-}
-
-nav a:link,
-nav a:visited {
-    text-decoration: none;
-}
-
-nav a:hover{
-    background-color: white;
-    margin: 0 auto;
-}
-<<<<<<< HEAD
-
-.nav-links{
-    text-align: right;
-
-    width: 100%;
 }
 
 .border-div {
@@ -243,6 +214,76 @@ nav a:hover{
 #thumbs-carousel img {
     width: 100px;
     height: 60px;
+}
+
+/*NAVBAR */
+
+.navbar {
+    height: 0px;
+    margin-bottom: 0px;
+}
+
+
+.navbar-header {
+    padding-right: 60px;
+}
+
+
+.navbar-logo img {
+    width: 50px;
+    border-radius: 3px;
+    margin-top: 6px;
+    vertical-align: initial;
+}
+
+.navbar-logo {
+    line-height: 49px;
+    padding-left: 20px;
+    color: #999;
+}
+
+nav {
+    text-align: center;    
+    z-index: -1;
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+
+nav ul li {
+    font-size: 18px;
+    border-right: 1px solid white;
+    padding-left: 9px;
+    padding-right: 9px; 
+}
+
+
+nav ul li:first-child {
+    border-left: 1px solid white;
+}
+
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #999;
+}
+
+.services {
+    display: inline-block;
+    width: 140px;
+    line-height: 19px;
+    margin-top: 9px;
+    font-size: 16px;
 }
 
 
