@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
+@import url(http://fonts.googleapis.com/css?family=Jura:400,600);
 
 body {
     background-image: url(../img/notebook.png);
@@ -65,26 +66,35 @@ margin-top: -50px;
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
+
 }
 
-.left {
-    background-color: white;
-    border-right: blue solid 4px;
-}
-
-.right {
-    background-color: #0F4DA8;
-    border-left: blue solid 1px;
+.col-md-4 {
+    background-color: gray;
     color: black;
+    border-bottom: white solid 9px;
 }
 
 .main-img {
     height: 75%;
 }
 
-.container {
-    text-align: right;
+.navbar {
+    height: 75px;
 }
+
+nav li {
+    display: inline-block;
+}
+
+nav a:visited,
+nav a:link,
+nav a:hover, 
+{
+    text-decoration: none;
+    color: black;
+}
+
 
 .logo {
     float: left;
@@ -120,8 +130,9 @@ width: 600px;
 }
 
 .contact-info{
+    font-family: Jura, sans-serif;
     color: #052F6D;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 
@@ -137,8 +148,8 @@ width: 600px;
 
 
 .input-head{
-    font-family: 'Lusitana', sans-serif;
-    font-size: 16px;
+     font-family: Jura, sans-serif;
+    font-size: 18px;
 }
 
 .border-div {
@@ -204,6 +215,14 @@ width: 600px;
     height: 60px;
 }
 
+<<<<<<< HEAD
+.contact-info-header{
+    font-family: Jura, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+=======
 /*NAVBAR */
 
 .navbar {
@@ -275,4 +294,5 @@ nav a:hover{
 }
 
 
+>>>>>>> 1c28278f31ccbe05b5e3e50ab55ba22fe4a74ce7
 
