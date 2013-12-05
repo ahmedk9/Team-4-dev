@@ -16,6 +16,10 @@ figure {
     border-radius: 2px;
 }
 
+/*#img-container {
+    width: 200px;
+}*/
+
 figcaption {
     font-weight: 300;
     text-align: center;
