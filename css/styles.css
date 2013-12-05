@@ -79,7 +79,6 @@ margin-top: -50px;
     height: 75%;
 }
 
-<<<<<<< HEAD
 .navbar {
     height: 75px;
 }
@@ -94,11 +93,8 @@ nav a:hover,
 {
     text-decoration: none;
     color: black;
-=======
-.container {
-    text-align: right;
->>>>>>> 1c28278f31ccbe05b5e3e50ab55ba22fe4a74ce7
 }
+
 
 .logo {
     float: left;
