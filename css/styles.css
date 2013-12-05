@@ -198,7 +198,7 @@ width: 600px;
 /*NAVBAR */
 
 .navbar {
-    height: 0px;
+   /* height: 0px;*/
     margin-bottom: 0px;
 }
 
@@ -271,7 +271,7 @@ nav a:hover{
     font-size: 16px;
 }
 
-<<<<<<< HEAD
+
 .consulting-icon {
     display: inline-block;
     padding: 10px;
@@ -279,7 +279,8 @@ nav a:hover{
 }
 
 .consulting-icon img{
-=======
+}
+
 figure {
     display: inline-block;
     padding: 10px;
@@ -298,21 +299,19 @@ figure {
 }
 
 figure img {
->>>>>>> 5500aed3ff92c0aeda68ad14ab1605bd0d02f00b
     width: 200px;
     border: 10px solid #EEE;
     border-radius: 2px;
 }
 
-<<<<<<< HEAD
+
 .consulting-caption {
     font-weight: 300;
     text-align: center;
     margin-top:  5px;
 }
 
-=======
->>>>>>> 5500aed3ff92c0aeda68ad14ab1605bd0d02f00b
+
 figure:hover {
     box-shadow: 2px 2px 6px #555;
 
@@ -320,7 +319,7 @@ figure:hover {
     -moz-transform: scale(1.5);
     -o-transform: scale(1.5);
     -ms-transform: scale(1.5);
-<<<<<<< HEAD
+
     transform: scale(1.5);  
 
     -webkit-transition: all 0.2s ease;
@@ -330,10 +329,9 @@ figure:hover {
     transition: all 0.2s ease;
 
 }
-=======
     transform: scale(1.5); 
 }
 
->>>>>>> 5500aed3ff92c0aeda68ad14ab1605bd0d02f00b
+
 
 
