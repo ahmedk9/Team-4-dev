@@ -43,15 +43,15 @@ margin-top: -50px;
     box-shadow: -5px -5px 5px #888;
 }
 .blue{
+    margin-top: 10px;
     background-color: rgb(88,144,177);
     color: white;
-    overflow: hidden; 
-    margin-top: 10px;
 }
 .home-col {
-    background-color: black;
     margin-top: 10px;
+    background-color: black;
 }
+
 
 
 .main-img {
