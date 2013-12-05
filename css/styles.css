@@ -270,37 +270,3 @@ nav a:hover{
     font-size: 16px;
 }
 
-figure {
-    display: inline-block;
-    padding: 10px;
-    background-color: #FFF;
-}
-
-figure img{
-    width: 200px;
-    border: 10px solid #EEE;
-    border-radius: 2px;
-}
-
-figcaption {
-    font-weight: 300;
-    text-align: center;
-    margin-top:  5px;
-}
-
-figure:hover {
-    box-shadow: 2px 2px 6px #555;
-
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);  
-
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -counter-resetms-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-
-}
