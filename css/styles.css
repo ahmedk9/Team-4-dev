@@ -248,13 +248,11 @@ nav ul li:first-child {
 }
 
 
-<<<<<<< HEAD
 .navbar-nav li a {
     line-height: 31px;
 }
 
-=======
->>>>>>> 7b5e0c58d8958c87120df11010f26a2efbcafe2d
+
 nav a:link,
 nav a:visited {
     text-decoration: none;
@@ -272,96 +270,3 @@ nav a:hover{
     font-size: 16px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-.consulting-icon {
-    display: inline-block;
-    padding: 10px;
-    background-color: #FFF;
-}
-
-.consulting-icon img{
-}
-
-=======
->>>>>>> dbb92dd05276f25d32ad54f14cede17059fcd4db
->>>>>>> 74e397458a6142deb1d9bcab35bc5a680fc0808e
-figure {
-    display: inline-block;
-    padding: 10px;
-    background-color: #FFF;
-}
-
-<<<<<<< HEAD
-figure img {
-<<<<<<< HEAD
-    width: 300px;
-=======
-=======
-figure img{
->>>>>>> dbb92dd05276f25d32ad54f14cede17059fcd4db
-    width: 200px;
->>>>>>> 74e397458a6142deb1d9bcab35bc5a680fc0808e
-    border: 10px solid #EEE;
-    border-radius: 2px;
-}
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-.consulting-caption {
-=======
-figcaption {
->>>>>>> dbb92dd05276f25d32ad54f14cede17059fcd4db
-    font-weight: 300;
-    text-align: center;
-    margin-top:  5px;
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> dbb92dd05276f25d32ad54f14cede17059fcd4db
->>>>>>> 74e397458a6142deb1d9bcab35bc5a680fc0808e
-figure:hover {
-    box-shadow: 2px 2px 6px #555;
-
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> dbb92dd05276f25d32ad54f14cede17059fcd4db
-    transform: scale(1.5);  
-
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -counter-resetms-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-
-<<<<<<< HEAD
-}
->>>>>>> 74e397458a6142deb1d9bcab35bc5a680fc0808e
-    transform: scale(1.5); 
-}
-
-
-
-
-=======
-}
->>>>>>> dbb92dd05276f25d32ad54f14cede17059fcd4db
->>>>>>> 554e45ce3b36e18eb6b6cdf9a06c213bb6deac8d
->>>>>>> 7b5e0c58d8958c87120df11010f26a2efbcafe2d
