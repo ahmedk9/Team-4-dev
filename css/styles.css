@@ -279,3 +279,9 @@ nav a:hover{
 .consulting-caption{
     width:20%;
 }
+
+.officeSpace-container{
+    margin: 0 auto;
+    padding: 40px 20px 40px 20px;
+    width: 980px;
+}
