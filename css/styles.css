@@ -117,7 +117,7 @@ width: 600px;
 #bio-container {
     margin: 0 auto;
     padding: 40px 20px 40px 20px;
-    width: 980px;
+    width: 75%;
 }
 
 
@@ -283,7 +283,7 @@ figure {
 }
 
 figure img {
-    width: 200px;
+    width: 300px;
     border: 10px solid #EEE;
     border-radius: 2px;
 }
