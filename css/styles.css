@@ -42,16 +42,45 @@ margin-top: -50px;
     -webkit-box-shadow: -5px -5px 5px #888;
     box-shadow: -5px -5px 5px #888;
 }
+
+.home-row {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.home-col {
+    margin-top: 10px;
+    background-color: black;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
 .blue{
     margin-top: 10px;
     background-color: rgb(88,144,177);
     color: white;
 }
-.home-col {
-    margin-top: 10px;
-    background-color: black;
+
+.home-link:hover {
+    text-decoration: none;
 }
 
+
+.adj1 {
+    text-align: left;
+}
+.adj2 {
+    text-align: center;
+}
+
+.adj3 {
+    text-align: right;
+}
+
+.adj1,
+.adj2,
+.adj3 {
+    font-family: Jura, 'sans-serif'
+}
 
 .main-img {
     opacity: 0.8;
