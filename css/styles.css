@@ -79,32 +79,6 @@ margin-top: -50px;
     height: 75%;
 }
 
-.navbar {
-    height: 75px;
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav a:visited,
-nav a:link,
-nav a:hover, 
-{
-    text-decoration: none;
-    color: black;
-}
-
-
-.logo {
-    float: left;
-    left: 0px;
-    height: 75px;
-    width: 6em;
-    border-radius: 3px;
-        position: absolute
-}
-
 .row-left{
     text-align: left;
 }
