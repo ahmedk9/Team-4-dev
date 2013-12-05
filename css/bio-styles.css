@@ -150,7 +150,7 @@ width: 600px;
 	margin-bottom: 0px;
 }
 
-/*aa*/
+
 .navbar-header {
 	padding-right: 60px;
 }
@@ -165,7 +165,6 @@ width: 600px;
 	line-height: 49px;
 	padding-left: 20px;
 	color: #999;
-	/*color: blue;*/
 }
 
 nav {
@@ -186,7 +185,7 @@ nav ul li {
     font-size: 18px;
     border-right: 1px solid white;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
 }
 
 nav ul li:first-child {
@@ -195,8 +194,8 @@ nav ul li:first-child {
 
 
 .navbar-nav a {
-    padding: 10px;
-    color: #FFF;
+/*    padding: 10px;
+    color: #FFF;*/
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -210,4 +209,43 @@ nav a:visited {
 nav a:hover{
     color: #999;
 }
+
+
+
+
+/*.services {  make div for writings
+	display: inline-block;
+	width: 140px;
+	line-height: 19px;
+	margin-top: 9px;
+	font-size: 16px;
+}
+
+.navbar-logo img {
+	width: 50px;
+	border-radius: 3px;
+	margin-top: 6px;
+	vertical-align: initial;
+}
+
+nav ul li {
+    font-size: 18px;
+    border-right: 1px solid white;
+    padding-left: 9px;
+    padding-right: 9px; 
+}
+
+.navbar-header {
+	padding-right: 33px;
+}
+
+.navbar {
+	min-height: 0px;
+	margin-bottom: 0px;
+	height: 52px;
+}
+*/
+
+
+
 
