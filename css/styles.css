@@ -69,7 +69,7 @@ margin-top: -50px;
 
 }
 
-.col-md-4 {
+.home-row {
     background-color: gray;
     color: black;
     border-bottom: white solid 9px;
@@ -137,8 +137,6 @@ width: 600px;
 .col-md-5{
     margin-left: 1em;
 }
-=======
->>>>>>> 3dc054891338ebe56b5a442fa4d6e3d0ab4a331b
 
 
 /*portfolio*/
@@ -189,14 +187,14 @@ width: 600px;
     height: 60px;
 }
 
-<<<<<<< HEAD
+
 .contact-info-header{
     font-family: Jura, sans-serif;
     font-size: 35px;
     font-weight: bold;
     padding-bottom: 15px;
 }
-=======
+
 /*NAVBAR */
 
 .navbar {
@@ -273,6 +271,69 @@ nav a:hover{
     font-size: 16px;
 }
 
+<<<<<<< HEAD
+.consulting-icon {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFF;
+}
 
->>>>>>> 1c28278f31ccbe05b5e3e50ab55ba22fe4a74ce7
+.consulting-icon img{
+=======
+figure {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;                        
+                    
+}
+
+figure img {
+>>>>>>> 5500aed3ff92c0aeda68ad14ab1605bd0d02f00b
+    width: 200px;
+    border: 10px solid #EEE;
+    border-radius: 2px;
+}
+
+<<<<<<< HEAD
+.consulting-caption {
+    font-weight: 300;
+    text-align: center;
+    margin-top:  5px;
+}
+
+=======
+>>>>>>> 5500aed3ff92c0aeda68ad14ab1605bd0d02f00b
+figure:hover {
+    box-shadow: 2px 2px 6px #555;
+
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+<<<<<<< HEAD
+    transform: scale(1.5);  
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -counter-resetms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+}
+=======
+    transform: scale(1.5); 
+}
+
+>>>>>>> 5500aed3ff92c0aeda68ad14ab1605bd0d02f00b
+
 
