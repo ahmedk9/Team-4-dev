@@ -31,6 +31,7 @@ margin-top: -50px;
 
 .home-col-img {
     opacity: 0.7;
+        border-bottom: black solid 5px;
 }
 
 .home-col-img:hover {
@@ -52,18 +53,19 @@ margin-top: -50px;
 }
 
 .home-row {
-    overflow: hidden;
     margin-bottom: 10px;
 }
 .home-col {
     margin-top: 10px;
-    background-color: black;
+    overflow: hidden;
 }
 
 .blue{
-    margin-top: 10px;
     background-color: rgb(88,144,177);
     color: white;
+    margin-top: 10px;
+    border-bottom: black solid 5px;
+        overflow: hidden;
 }
 
 .home-link:hover {
@@ -72,10 +74,6 @@ margin-top: -50px;
 
 .adj{
     font-family: Jura, 'sans-serif';
-}
-
-.table-row {
-    padding: 5px;
 }
 
 .main-img {
