@@ -70,10 +70,13 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     font-size: 14px;
 }
 
+.col-pic {
+    opacity: 0.7;
+}
 
-
-
-
+.col-pic:hover {
+    opacity: 1;
+}
 
 
 
