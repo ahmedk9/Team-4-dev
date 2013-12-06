@@ -1,7 +1,7 @@
 $(function(){
 	$('.element').hide();
 
-	$('.caret1').click(function(){
+	$('#dLabel1').click(function(){
 		if ($('.retail').is(':visible')){
 			$('.retail').hide();
 		} else {
@@ -9,7 +9,7 @@ $(function(){
 		}
 	});
 
-	$('.caret2').click(function(){
+	$('#dLabel2').click(function(){
 		if ($('.office').is(':visible')){
 			$('.office').hide();
 		} else {
@@ -17,7 +17,7 @@ $(function(){
 		}
 	});
 
-	$('.caret3').click(function(){
+	$('#dLabel3').click(function(){
 		if ($('.consulting').is(':visible')){
 			$('.consulting').hide();
 		} else {
