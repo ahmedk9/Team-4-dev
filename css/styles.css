@@ -47,6 +47,10 @@ margin-top: -50px;
     box-shadow: -5px -5px 5px #888;*/
 }
 
+.col-md-12 img {
+    height: 100%;
+}
+
 .home-row {
     overflow: hidden;
     margin-bottom: 10px;

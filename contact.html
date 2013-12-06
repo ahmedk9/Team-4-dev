@@ -1,91 +1,85 @@
 <!doctype html>
 
 <html>
-  <head>
-     <meta charset="UTF-8">
+	<head>
+	   	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="shortcut icon" href="img/logo-2.png">
+		<title>Ryan Cleveland Construction Services</title>
+	</head>
+	
+	<body>	
+		<header>
+			<nav class="navbar navbar-inverse" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-menu">
+						 <span class="sr-only">Toggle navigation</span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-logo" href="index.html">
+						<img src="img/logo-2.png" alt="Logo"><div class="services"> Ryan Cleveland Services</div>
+					</a>
+				</div>
 
-  	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="css/styles.css">
-  	<link rel="shortcut icon" href="img/logo-2.png">
+				<div class="collapse navbar-collapse" id="main-navbar-menu">
+					<ul class="nav navbar-nav">
+				      	<li class"active"><a href="index.html">Home</a></li> 
+				   		<li><a href="portfolio.html">Portfolio</a></li>
+				   		<li><a href="bio.html">Company</a></li> 
+				   		<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-  	<title>Ryan Cleveland Construction Services</title>
-  </head>
+		<div id="bio-container">
+			<div class = "row-contact">
+				<div class="col-md-6">
+					<h2 class= "contact-info-header">Contact Us</h2> 
+					<p class="contact-info">
+						Ryan Cleveland Services, LLC <br>
+						1915 E. Marion St. <br>
+						Seattle, WA 98122 <br>
+						P: 206-683-4323 <br>
+						E: <a href="mailto: ryan@ryanclevelandservices.com">ryan@ryanclevelandservices.com</a> <br>
+					</p>
+				</div>
+			
+				<div class="col-md-5">
 
-	<body>
+					<div class="text-form">
+						<form method="post" name="myemailform" action="form-to-email.php">
 
-    <header>
-      <nav class="navbar navbar-inverse" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-menu">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-logo" href="index.html">
-            <img src="img/logo-2.png" alt="Logo"><div class="services"> Ryan Cleveland Services</div>
-          </a>
-        </div>
+							<div class="form-group">
+								<p class="input-head">Your Name:</p></p><input type="text" name="name" class="form-control form-name" required>
+							</div>
 
-        <div class="collapse navbar-collapse" id="main-navbar-menu">
-          <ul class="nav navbar-nav">
-              <li class"active"><a href="index.html">Home</a></li> 
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="bio.html">Company</a></li> 
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+							<div class="form-group">
+								<p class="input-head">Your Email Address:</p><input type="text" name="email" class="form-control form-email" required>
+							</div>
 
-    <div class= "contact-container">
+							<div class="form-group">
+								<p class="input-head">Subject:</p><input type="text" name="subject" class="form-control form-subject" required>
+							</div>
 
-      <div class = "row-contact">
-      		 <div class="col-md-6">
-           <h2 class= "contact-info-header">
-            Contact Us
-           </h2> 
-         <p class="contact-info">
-                Ryan Cleveland Services, LLC <br>
-                1915 E. Marion St. <br>
-                Seattle, WA 98122 <br>
-                P: 206-683-4323 <br>
-                E: <a href="mailto: ryan@ryanclevelandservices.com">ryan@ryanclevelandservices.com</a> 
-                <br>
-              </p>
-           
-      		 </div>
-      		 <div class="col-md-5">
+							<div class="form-group">
+								<p class="input-head">Your Message:</p><textarea name="message" rows="10" cols="58" class="form-control form-message" required></textarea>
+							</div>
 
-      			
-      				
-      		 		<div class="text-form">
-              <form method="post" name="myemailform" action="form-to-email.php">
+							<input type="submit" value="Send" class="btn btn-primary">
+						</form>
+					</div>
+				</div>
+      		</div>
+			
 
-                <div class="form-group">
-                   <p class="input-head">Your Name:</p></p><input type="text" name="name" class="form-control form-name" required>
-                </div>
+		</div>
 
-                <div class="form-group">
-                   <p class="input-head">Your Email Address:</p><input type="text" name="email" class="form-control form-email" required>
-                </div>
-
-                <div class="form-group">
-                   <p class="input-head">Subject:</p><input type="text" name="subject" class="form-control form-subject" required>
-                </div>
-
-                <div class="form-group">
-                    <p class="input-head">Your Message:</p><textarea name="message" rows="10" cols="58" class="form-control form-message" required></textarea>
-                </div>
-                
-                    <input type="submit" value="Send" class="btn btn-primary">
-                </form>
-      			</div>
-                     
-      		 </div>
-      		
-
-      </div>
-    </div>
-  </body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	</body>
 </html>
