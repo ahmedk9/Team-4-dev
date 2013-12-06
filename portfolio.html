@@ -39,23 +39,84 @@
 
 		<div id="bio-container">
 
-			<h2>Portfolio</h2>
-			<p>Preview of some Ryan Cleveland Construction work</p>
+			<h2 class="portfolio">Portfolio</h2>
 
 
-			<div id="img-container">
-				<figure class="square">
-				    <a href="retailSpaces.html"><img src="img//Milagro-Salon/Milagro3.JPG" class="img-responsive"alt="Milagro Salon"></a>
-				    <figcaption>Retail Spaces</figcaption>
-				</figure>
-				<figure class="square">
-				    <a href="officeSpaces.html"><img src="img/Banyan-Branch/Banyan5.jpg" class="img-responsive" alt="Banyan Branch"></a>
-				    <figcaption>Office Spaces</figcaption>
-				</figure>
-				<figure class="square">
-				    <a href="consulting.html"><img src="img/lumiResidence/DSC_0117.JPG" class="img-responsive" alt="Lumi Residence"></a>
-				    <figcaption>Consulting</figcaption>
-				</figure>
+			<div class="row">
+
+				<!-- RETAIL SPACES -->
+				<div class="col-md-4">
+					<figure class="square">
+					    <a href="retailSpaces.html"><img src="img//Milagro-Salon/Milagro3.JPG" class="img-responsive"alt="Milagro Salon"></a>
+
+					       
+				    	<div class="dropdown">
+				    		<figcaption>Retail Spaces
+				    		<a id="drop4" role="button" data-toggle="dropdown" href="#"> <b class="caret caret1"></b></a>
+							</figcaption>
+						</div>
+					</figure>
+
+					<div class="element retail">
+				        <img class="col-pic" src="img/Milagro-Salon/Milagro2.JPG" alt="Milagro Salon">
+				        <p>Milagro Salon</p>
+			        </div>
+			        <div class="element retail">
+				        <img class="col-pic" src="img/Ballard-Landmark/Ballard15.JPG" alt="Ballard Landmark">
+				        <p>Ballard Landmark</p>
+			        </div>
+			        <div class="element retail">
+				        <img class="col-pic" src="img/Dish-It-Up/DSC_0089.JPG" alt="Dish It Up">
+				        <p>Dish It Up</p>
+			        </div>
+
+
+				</div>
+
+
+				<!-- OFFICE SPACES -->
+				<div class="col-md-4">
+					<figure class="square">
+					    <a href="officeSpaces.html"><img src="img/Banyan-Branch/Banyan5.jpg" class="img-responsive" alt="Banyan Branch"></a>
+
+					    <div class="dropdown">
+					    	<figcaption>Office Spaces
+					    	<a id="drop4" role="button" data-toggle="dropdown" href="#"> <b class="caret caret2"></b></a>
+  							</figcaption>
+  						</div>
+					</figure>
+					<div class="element office">
+				        <img class="col-pic" src="img/Banyan-Branch/Banyan4.JPG" alt="Banyan Branch">
+				        <p>Banyan Branch</p>
+			        </div>
+			        <div class="element office">
+				        <img class="col-pic" src="img/First-Lenora/First-Lenora1.JPG" alt="First and Lenora Entry">
+				        <p>First and Lenora Entry</p>
+			        </div>
+			        <div class="element office">
+				        <img class="col-pic" src="img/Teutsch-Partners/Teutsch2.JPG" alt="Teutsch Partners Office">
+				        <p>Teutsch Partners Office</p>
+			        </div>
+				</div>
+
+
+				<!-- CONSULTING -->
+				<div class="col-md-4">
+					<figure class="square">
+					    <a href="consulting.html"><img src="img/lumiResidence/DSC_0117.JPG" class="img-responsive" alt="Lumi Residence"></a>
+
+					    <div class="dropdown">
+					    	<figcaption>Consulting
+					    	<a id="drop4" role="button" data-toggle="dropdown" href="#"> <b class="caret caret3"></b></a>
+  							</figcaption>
+  						</div>
+					</figure>
+					<div class="element consulting">
+				        <img class="col-pic" src="img/lumiResidence/DSC_0114.JPG" alt="Lumi Residence">
+				        <p>Lumi Residence</p>
+			        </div>
+				</div>
+
 			</div>
 
 
@@ -64,6 +125,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		
+		<script src="js/portfolio.js"></script>
+
 	</body>
 </html>
 
