@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/portfolioStyles.css">
-		<link rel="shortcut icon" href="img/logo-2.jpg">
+		<link rel="shortcut icon" href="img/logo-2.png">
 
 		<title>Ryan Cleveland Construction Services</title>
 	</head>
@@ -39,31 +39,173 @@
 
 		<div id="bio-container">
 
-			<h2>Portfolio</h2>
-			<p>Preview of some Ryan Cleveland Construction work</p>
+			<h2 class="portfolio">Portfolio</h2>
 
 
-			<div id="img-container">
-				<figure class="square">
-				    <a href="retailSpaces.html"><img src="img//Milagro-Salon/Milagro3.JPG" class="img-responsive"alt="Milagro Salon"></a>
-				    <figcaption>Retail Spaces</figcaption>
-				</figure>
-				<figure class="square">
-				    <a href="officeSpaces.html"><img src="img/Banyan-Branch/Banyan5.jpg" class="img-responsive" alt="Banyan Branch"></a>
-				    <figcaption>Office Spaces</figcaption>
-				</figure>
-				<figure class="square">
-				    <a href="consulting.html"><img src="img/lumiResidence/DSC_0117.JPG" class="img-responsive" alt="Lumi Residence"></a>
-				    <figcaption>Consulting</figcaption>
-				</figure>
-			</div>
+			<div class="row">
+
+				<!-- RETAIL SPACES -->
+				<div class="col-md-4">
+					<figure class="square">
+					    <img src="img//Milagro-Salon/Milagro3.JPG" class="img-responsive"alt="Milagro Salon">
+
+					       
+				    	<div class="dropdown">
+				    		<figcaption>
+				    		<a id="dLabel1" role="button" data-toggle="dropdown" href="#">Retail Spaces <b class="caret caret1"></b></a>
+							</figcaption>
+						</div>
+					</figure>
+
+					<div class="element retail">
+				        <img class="col-pic" src="img/Milagro-Salon/Milagro2.JPG" alt="Milagro Salon">
+				        <p>Milagro Salon</p>
+			        </div>
+			        <div class="element retail">
+				        <img class="col-pic" src="img/Ballard-Landmark/Ballard15.JPG" alt="Ballard Landmark">
+				        <p>Ballard Landmark</p>
+			        </div>
+			        <div class="element retail">
+				        <img class="col-pic" src="img/Dish-It-Up/DSC_0089.JPG" alt="Dish It Up">
+				        <p>Dish It Up</p>
+			        </div>
 
 
+				</div>
+
+
+				<!-- OFFICE SPACES -->
+				<div class="col-md-4">
+					<figure class="square">
+					    <img src="img/Banyan-Branch/Banyan5.jpg" class="img-responsive" alt="Banyan Branch">
+
+					    <div class="dropdown">
+					    	<figcaption>
+					    	<a id="dLabel2" role="button" data-toggle="dropdown" href="#">Office Spaces <b class="caret caret2"></b></a>
+  							</figcaption>
+  						</div>
+					</figure>
+					<div class="element office">
+				        <img class="col-pic" src="img/Banyan-Branch/Banyan4.JPG" alt="Banyan Branch">
+				        <p>Banyan Branch</p>
+			        </div>
+			        <div class="element office">
+				        <img class="col-pic" src="img/First-Lenora/First-Lenora1.JPG" alt="First and Lenora Entry">
+				        <p>First and Lenora Entry</p>
+			        </div>
+			        <div class="element office">
+				        <img class="col-pic" src="img/Teutsch-Partners/Teutsch2.JPG" alt="Teutsch Partners Office">
+				        <p>Teutsch Partners Office</p>
+			        </div>
+				</div>
+
+
+				<!-- CONSULTING -->
+				<div class="col-md-4">
+					<figure class="square">
+					    <a href="consulting.html"><img src="img/lumiResidence/DSC_0117.JPG" class="img-responsive" alt="Lumi Residence"></a>
+
+					    <div class="dropdown">
+					    	<figcaption>
+					    	<a id="dLabel3" role="button" data-toggle="dropdown" href="#">Consulting <b class="caret caret3"></b></a>
+  							</figcaption>
+  						</div>
+					</figure>
+					<div class="element consulting">
+				        <a href="consulting.html"><img class="col-pic" src="img/lumiResidence/DSC_0114.JPG" alt="Lumi Residence"></a>
+				        <p>Lumi Residence</p>
+			        </div>
+
+
+			        <div class="element consulting">
+				        <a href="consulting.html"><img class="col-pic" class="btn btn-default btn-lg consulting-caption" data-toggle="modal" data-target="#myModal" class="Alderbrook-carousel" src="img/Alderbrook-Resort/alderbrook11.JPG" alt-"Alderbrook Resort"></a>
+				        <p>Lumi Residence</p>
+				        <!-- Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						      <div class="modal-content">
+						          <div class="modal-header">
+						            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						           <h4 class="modal-title" id="myModalLabel">Alderbrook Resort</h4>
+						          </div>
+						          <div class="modal-body">
+						        
+						          <div id="cleveland-carousel" class="carousel slide">
+						              <ol class="carousel-indicators">
+						                  <li data-target="#cleveland-carousel" data-slide-to="0" class="active"></li>
+						                  <li data-target="#cleveland-carousel" data-slide-to="1"></li>
+						                  <li data-target="#cleveland-carousel" data-slide-to="2"></li>
+						              </ol>
+
+						                  <div class="carousel-inner">
+						                      <div class="item active">
+						                            <img src="img/Alderbrook-Resort/Alderbrook10.JPG" alt="Alderbrook Resort">
+						                            <div class="carousel-caption">
+						                              <p>Alderbrook Resort</p>
+						                            </div>
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook11.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook1.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook3.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook6.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook7.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook8.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook9.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook4.JPG" alt="Alderbrook Resort">
+						                      </div>
+
+						                      <div class="item">
+						                          <img src="img/Alderbrook-Resort/Alderbrook2.JPG" alt="Alderbrook Resort">
+						                      </div>
+						                  </div> <!-- /.carousel-inner -->
+						        
+						                      <!-- Controls -->
+						                  <a class="left carousel-control" href="#cleveland-carousel" data-slide="prev">
+						                  <span class="icon-prev"></span></a>
+
+						                  <a class="right carousel-control" href="#cleveland-carousel" data-slide="next">
+						                  <span class="icon-next"></span></a>
+						                 
+						              </div> <!-- /.carousel-outer -->
+						          </div><!-- /.modal-body -->
+						      </div><!-- /.modal-content -->
+						  </div><!-- /.modal dialogue -->
+						</div> <!-- /.modal -->
+
+			        </div><!-- /.element -->
+				</div><!-- /.consulting-column -->
+
+			</div><!-- /.row -->
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		
+		<script src="js/portfolio.js"></script>
+
 	</body>
 </html>
 
