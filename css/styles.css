@@ -50,36 +50,26 @@ margin-top: -50px;
 .home-col {
     margin-top: 10px;
     background-color: black;
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
 }
 
 .blue{
-    margin-top: 10px;
     background-color: rgb(88,144,177);
     color: white;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 10px;
 }
 
 .home-link:hover {
     text-decoration: none;
 }
 
-
-.adj1 {
-    text-align: left;
-}
-.adj2 {
-    text-align: center;
+.adj{
+    font-family: Jura, 'sans-serif';
 }
 
-.adj3 {
-    text-align: right;
-}
-
-.adj1,
-.adj2,
-.adj3 {
-    font-family: Jura, 'sans-serif'
+.table-row {
+    padding: 5px;
 }
 
 .main-img {
