@@ -6,6 +6,9 @@ $(function(){
 			$('.retail').hide();
 		} else {
 			$('.retail').show();
+			$('.office').hide();
+			$('.consulting').hide();
+
 		}
 	});
 
@@ -14,6 +17,8 @@ $(function(){
 			$('.office').hide();
 		} else {
 			$('.office').show();
+			$('.retail').hide();
+			$('.consulting').hide();
 		}
 	});
 
@@ -22,6 +27,8 @@ $(function(){
 			$('.consulting').hide();
 		} else {
 			$('.consulting').show();
+			$('.office').hide();
+			$('.retail').hide();
 		}
 	});
 
