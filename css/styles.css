@@ -31,7 +31,7 @@ margin-top: -50px;
 
 .home-col-img {
     opacity: 0.7;
-        border-bottom: black solid 5px;
+    border-bottom: black solid 5px;
 }
 
 .home-col-img:hover {
@@ -43,9 +43,6 @@ margin-top: -50px;
     height: 75%;
     width: 100%;
     padding: 0px;
-/*    -moz-box-shadow: -5px -5px 5px #888;
-    -webkit-box-shadow: -5px -5px 5px #888;
-    box-shadow: -5px -5px 5px #888;*/
 }
 
 .col-md-12 img {
@@ -65,7 +62,6 @@ margin-top: -50px;
     color: white;
     margin-top: 10px;
     border-bottom: black solid 5px;
-        overflow: hidden;
 }
 
 .home-link:hover {
