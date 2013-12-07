@@ -29,6 +29,9 @@ margin-top: -50px;
     border: #052F6D solid 2px;
 }
 
+.container {
+    padding: 0 15px;
+}
 .home-col-img {
     opacity: 0.7;
     border-bottom: black solid 5px;
@@ -51,10 +54,12 @@ margin-top: -50px;
 
 .home-row {
     margin-bottom: 10px;
+    overflow: hidden;
 }
+
 .home-col {
     margin-top: 10px;
-    overflow: hidden;
+    padding-left: 0px;
 }
 
 .blue{
@@ -300,12 +305,10 @@ nav a:hover{
 .consulting-caption{
     width:20%;
 }
-<<<<<<< HEAD
+
 
 .officeSpace-container{
     margin: 0 auto;
     padding: 40px 20px 40px 20px;
     width: 980px;
 }
-=======
->>>>>>> a7785c9cc260725d77c55e18752aae44bb62f50d
