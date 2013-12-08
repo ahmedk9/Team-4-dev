@@ -55,7 +55,7 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
 .col-pic {
     float: left;
     width: 30%;
-    /*height: 100px;*/
+    height: 75px;
     margin: 10px;
 }
 
@@ -79,7 +79,10 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     opacity: 1;
 }
 
-
+.item {
+/*    height: 300px;
+    width: 300px;*/
+}
 
 
 
