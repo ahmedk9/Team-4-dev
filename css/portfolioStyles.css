@@ -87,11 +87,6 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     opacity: 1;
 }
 
-.item {
-/*    height: 300px;
-    width: 300px;*/
-}
-
 .carousel-inner .item img, .carousel-inner .item a img {
     display: block;
     height: 500px;
@@ -105,6 +100,10 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     position: fixed;
     bottom: 35px;
     left: 500px;
+}
+
+.portfolio-img {
+    padding-bottom: 20px;
 }
 
 
