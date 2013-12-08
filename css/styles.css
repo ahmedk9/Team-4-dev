@@ -29,35 +29,41 @@ margin-top: -50px;
     border: #052F6D solid 2px;
 }
 
+.container {
+    padding: 0 15px;
+}
 .home-col-img {
     opacity: 0.7;
-        border-bottom: black solid 5px;
+    border-bottom: black solid 5px;
 }
 
 .home-col-img:hover {
     opacity: 1;
 }
 
-.col-md-12 {
+.img-col {
     border: black solid 4px;
     height: 75%;
     width: 100%;
     padding: 0px;
-/*    -moz-box-shadow: -5px -5px 5px #888;
-    -webkit-box-shadow: -5px -5px 5px #888;
-    box-shadow: -5px -5px 5px #888;*/
 }
 
-.col-md-12 img {
+.img-col img {
     height: 100%;
+}
+
+.profile-col {
+    width: 100%;
 }
 
 .home-row {
     margin-bottom: 10px;
+    overflow: hidden;
 }
+
 .home-col {
     margin-top: 10px;
-    overflow: hidden;
+    padding-left: 0px;
 }
 
 .blue{
@@ -65,7 +71,6 @@ margin-top: -50px;
     color: white;
     margin-top: 10px;
     border-bottom: black solid 5px;
-        overflow: hidden;
 }
 
 .home-link:hover {
@@ -87,7 +92,7 @@ margin-top: -50px;
     margin-left: auto;
     margin-right: auto;
 }
-.text-box {
+.title-box {
     position: absolute;
     top: 0px;
     z-index: 999;
@@ -95,6 +100,14 @@ margin-top: -50px;
     background-color: rgba(0,0,0,.6);
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.welcome-box {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    color: #FFF;
+    background-color: rgba(0,0,0,.6);
 }
 
 .text-form {
@@ -304,12 +317,10 @@ nav a:hover{
 .consulting-caption{
     width:20%;
 }
-<<<<<<< HEAD
+
 
 .officeSpace-container{
     margin: 0 auto;
     padding: 40px 20px 40px 20px;
     width: 980px;
 }
-=======
->>>>>>> a7785c9cc260725d77c55e18752aae44bb62f50d
