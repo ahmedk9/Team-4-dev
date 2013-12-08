@@ -63,7 +63,6 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     overflow: hidden;
     background: white;
     border-top: 1px solid black;
-    width: 320px;
 }
 
 .element p {
