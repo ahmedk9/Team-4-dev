@@ -53,6 +53,13 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     margin-top: 0px; 
 }
 
+
+/*.row {
+    text-align: center;
+}*/
+
+
+
 .col-pic {
     float: left;
     width: 30%;
@@ -64,6 +71,7 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     overflow: hidden;
     background: white;
     border-top: 1px solid black;
+    width: 320px;
 }
 
 .element p {
@@ -91,5 +99,22 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     line-height: 1;
 }
 
+@media screen and (max-width: 990px) and (min-width: 700px){
+    .row {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 699px) and (min-width: 500px){
+     .row {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+     .row {
+        margin-left: 10%;
+    }
+}
 
 

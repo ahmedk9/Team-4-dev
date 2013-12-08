@@ -31,23 +31,4 @@ $(function(){
 			$('.retail').hide();
 		}
 	});
-
-	// $('.element').hide();
-	// $('.dropdown-toggle').dropdown(){
-	// 	$('.element').hide();
-	// }
-
-
 });
-
-
-// <div class="dropdown">
-//   <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
-//     Dropdown <span class="caret"></span>
-//   </a>
-
-
-//   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-//     ...
-//   </ul>
-// </div>
