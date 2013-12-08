@@ -83,5 +83,12 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
     width: 300px;*/
 }
 
+.carousel-inner .item>img, .carousel-inner .item a img {
+    display: block;
+    height: 500px;
+    width: 540px;
+    line-height: 1;
+}
+
 
 
