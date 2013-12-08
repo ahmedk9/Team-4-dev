@@ -113,9 +113,8 @@ margin-top: -50px;
 .text-form {
     color: #FFF;
     background-color: rgba(0,0,0,.3);
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
+    padding: 15px;
+    border-radius: 3px;
 }
 
 .main-img {
@@ -127,8 +126,8 @@ margin-top: -50px;
 }
 
 .contact-img{
-height: 600px;
-width: 600px;
+    height: 600px;
+    width: 600px;
 }
 
 .forum{
@@ -146,11 +145,10 @@ width: 600px;
 
 }
 
-.contact-info{
+.contact-info {
     font-family: Jura, sans-serif;
-    color: #052F6D;
+    /*color: #052F6D;*/
     font-size: 22px;
-
 }
 
 .contact-container{
@@ -178,9 +176,17 @@ width: 600px;
     border-color: black;
 }
 
-.col-md-5{
-    margin-left: 1em;
+.contact-form {
+    padding: 0; 
 }
+
+.glyphicon {
+    margin-right: 10px;
+}
+
+/*.send {
+    margin-bottom: 10px;
+}*/
 
 
 /*portfolio*/
@@ -324,3 +330,13 @@ nav a:hover{
     padding: 40px 20px 40px 20px;
     width: 980px;
 }
+
+
+header {
+    padding-bottom: 20px;
+}
+
+
+
+
+

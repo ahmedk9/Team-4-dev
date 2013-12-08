@@ -50,6 +50,7 @@ figcaption a, figcaption a:hover, figcaption a:link, figcaption a:visited {
 
 .portfolio {
     text-align: center;
+    margin-top: 0px; 
 }
 
 .col-pic {
