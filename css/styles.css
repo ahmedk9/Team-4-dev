@@ -387,6 +387,10 @@ header {
 #image img {
     width: 100%;
 }
+
+.bio-header {
+    text-align: center;
+}
 /*.welcome {
     padding-right: 0px;
 }
