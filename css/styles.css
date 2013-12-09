@@ -93,8 +93,10 @@ margin-top: -50px;
    font-family: 'Open Sans', sans-serif;
    padding: 10px;
    font-size: 28px;
-   line-height: 28px;
-   vertical-align: middle;
+   margin-bottom: 10px;
+    display             : inline-block;     /* FF3, Opera, Safari */
+    line-height         : normal;
+    vertical-align      : middle;  
 }
 
 .fig-caption {
