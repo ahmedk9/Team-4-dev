@@ -95,7 +95,7 @@ margin-top: -50px;
 }
 
 .for-margins {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -391,6 +391,19 @@ header {
 .bio-header {
     text-align: center;
 }
+
+.image-block {
+    width: 30%;
+    height: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.single-img {
+    width: 48%;
+    height: 20%;
+}
+
 /*.welcome {
     padding-right: 0px;
 }
