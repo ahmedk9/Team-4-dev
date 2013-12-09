@@ -79,7 +79,6 @@ margin-top: -50px;
 .blue{
     background-color: rgb(88,144,177);
     color: white;
-    margin-top: 10px;
     border-bottom:  #373725 solid 5px;
     padding: 10px;
 }
@@ -93,10 +92,6 @@ margin-top: -50px;
 
 .home-link:hover {
     text-decoration: none;
-}
-
-.adj{
-    font-family: Jura, 'sans-serif';
 }
 
 
