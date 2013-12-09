@@ -75,26 +75,32 @@ margin-top: -50px;
     padding: 10px;
     height: 33%;
     width: 100%;
+    vertical-align:middle;
 }
 
-.adj {
-    text-align: center;
-}
 
 .blue-text {
-    display: inline-block;
+    line-height: 100%;
     vertical-align: middle;
-    padding: 15px 15px;
-    width: 300px;
+    text-align: center;
 }
 
 .home-link:hover {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6254c25b6ebd715bb8fb76423e41c1d15437b0c
 .adj{
    font-family: 'Open Sans', sans-serif;
+   padding: 10px;
+   font-size: 28px;
+   margin-bottom: 10px;
+    display             : inline-block;     /* FF3, Opera, Safari */
+    line-height         : normal;
+    vertical-align      : middle;  
 }
 
 .fig-caption {
@@ -102,7 +108,7 @@ margin-top: -50px;
 }
 
 .main-img {
-    opacity: 0.8;
+    opacity: 0.9;
     height: 75%;
     width: 100%;
 }
@@ -164,7 +170,7 @@ margin-top: -50px;
 .contact-info {
     font-family: 'Open Sans', sans-serif;
     /*color: #052F6D;*/
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .contact-container{
@@ -181,7 +187,7 @@ margin-top: -50px;
 
 .input-head{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .border-div {
@@ -216,7 +222,7 @@ margin-top: -50px;
 
 .contact-info-header{
     font-family: 'Open Sans', sans-serif;
-    font-size: 35px;
+    font-size: 24px;
     font-weight: bold;
     padding-bottom: 15px;
 }
