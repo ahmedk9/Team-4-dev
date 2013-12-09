@@ -79,7 +79,6 @@ margin-top: -50px;
     color: white;
     margin-top: 10px;
     border-bottom:  #373725 solid 5px;
-    height: 33%;
 }
 
 .blue-text {
@@ -108,9 +107,10 @@ margin-top: -50px;
 }
 
 .for-margins {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+     margin: 0 auto;
+   /* padding: 40px 20px 40px 20px;*/
+    width: 85%;
+    padding-bottom: 20px;
 }
 .title-box {
     position: absolute;
