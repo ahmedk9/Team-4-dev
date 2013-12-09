@@ -75,34 +75,28 @@ margin-top: -50px;
     padding: 10px;
     height: 33%;
     width: 100%;
+    vertical-align:middle;
 }
 
-.adj {
-    text-align: center;
-}
 
 .blue-text {
-    display: inline-block;
+    line-height: 100%;
     vertical-align: middle;
-    padding: 15px 15px;
-    width: 300px;
+    text-align: center;
 }
 
 .home-link:hover {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .adj{
    font-family: 'Open Sans', sans-serif;
+   padding: 10px;
+   font-size: 28px;
+   line-height: 28px;
+   vertical-align: middle;
 }
 
-=======
->>>>>>> d6c52d9943455ea53dc1472bc7cb11465911d563
-
->>>>>>> b36059b6f00bfda7c12dc3479c62c83c1aec3613
 .fig-caption {
     font-size: 18px;
 }
