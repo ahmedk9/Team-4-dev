@@ -339,6 +339,9 @@ header {
     .input-head {
         font-size: 17px;
     }
+    .title-box h1 {
+        font-size: 60px;
+    }
 
 }
 
@@ -358,6 +361,9 @@ header {
     }
     .contact-row {
         margin-top: 100px;
+    }
+    .title-box h1 {
+        font-size: 50px;
     }
 }
 
@@ -380,11 +386,17 @@ header {
     .contact-info-header {
         font-size: 45px;
     }
+    .title-box h1 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 990px) and (min-width: 700px) {
     .fkr {
         display: none;
+    }
+    .title-box h1 {
+        font-size: 35px;
     }
 }
 
@@ -429,6 +441,9 @@ header {
     }
     .img-col {
         height: 60%;
+    }
+    .title-box h1 {
+        font-size: 20px;
     }
 }
 
