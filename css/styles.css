@@ -75,17 +75,14 @@ margin-top: -50px;
     padding: 10px;
     height: 33%;
     width: 100%;
+    vertical-align:middle;
 }
 
-.adj {
-    text-align: center;
-}
 
 .blue-text {
-    display: inline-block;
+    line-height: 100%;
     vertical-align: middle;
-    padding: 15px 15px;
-    width: 300px;
+    text-align: center;
 }
 
 .home-link:hover {
@@ -93,16 +90,19 @@ margin-top: -50px;
 }
 
 <<<<<<< HEAD
+
 =======
-<<<<<<< HEAD
+>>>>>>> a6254c25b6ebd715bb8fb76423e41c1d15437b0c
 .adj{
    font-family: 'Open Sans', sans-serif;
+   padding: 10px;
+   font-size: 28px;
+   margin-bottom: 10px;
+    display             : inline-block;     /* FF3, Opera, Safari */
+    line-height         : normal;
+    vertical-align      : middle;  
 }
 
-=======
->>>>>>> d6c52d9943455ea53dc1472bc7cb11465911d563
-
->>>>>>> b36059b6f00bfda7c12dc3479c62c83c1aec3613
 .fig-caption {
     font-size: 18px;
 }
@@ -327,6 +327,15 @@ header {
         font-size: 21px;
     }
     .inner-content p {font-size: 18px; }
+    .contact-info {
+        font-size: 35px;
+    }
+    .contact-info-header {
+        font-size: 50px;
+    }
+    .row {
+        margin-top: 100px;
+    }
 
 }
 
@@ -338,11 +347,29 @@ header {
         font-size: 18px;
     }
     .inner-content p {font-size: 16px; }
+    .contact-info {
+        font-size: 30px;
+    }
+    .contact-info-header {
+        font-size: 45px;
+    }
+    .row {
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 1050px) and (min-width: 700px) {
     .fig-caption a {
         font-size: 18px;
+    }
+    .contact-info {
+        font-size: 25px;
+    }
+    .contact-info-header {
+        font-size: 40px;
+    }
+    .row {
+        margin-top: 100px;
     }
 }
 
@@ -353,6 +380,9 @@ header {
     .contact-info { font-size: 18px; }
     .dropdown a {font-size: 18px; }
     .inner-content p {font-size: 12px; }
+    .row {
+        margin-top: 100px;
+    }
 }
 
 
@@ -416,6 +446,11 @@ header {
 height: 500px;
 }
 
+<<<<<<< HEAD
 .secondLine {
     padding-left: 35px;
+=======
+.glyphicon {
+    margin-bottom: 7px;
+>>>>>>> 3aff21b442d434aa5b8d572b8118315c2f95534d
 }
