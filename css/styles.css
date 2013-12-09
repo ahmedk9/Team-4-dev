@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
-@import url(http://fonts.googleapis.com/css?family=Jura:400,600);
 
 body {
     /*background-image: url(../img/notebook.png);*/
@@ -33,7 +32,7 @@ margin-top: -50px;
     padding: 0 15px;
 }
 .home-col-img {
-    opacity: 0.8;
+    opacity: 0.9;
     border-bottom: #373725 solid 5px;
     height: 33%;
     width: 100%;
@@ -65,30 +64,43 @@ margin-top: -50px;
 
 .home-col {
     margin-top: 10px;
-    padding-left: 0px;
+    padding: 5px;
+    padding-right: 0px;
 }
 
 .blue{
     background-color: rgb(88,144,177);
     color: white;
-    margin-top: 10px;
     border-bottom:  #373725 solid 5px;
+    padding: 10px;
     height: 33%;
+    width: 100%;
+    vertical-align:middle;
 }
 
+
 .blue-text {
-    display: inline-block;
+    line-height: 100%;
     vertical-align: middle;
-    padding: 15px 15px;
-    width: 300px;
+    text-align: center;
 }
 
 .home-link:hover {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 869aa7922716f43b2cfa0201f374d9c96e07dd69
 .adj{
-    font-family: Jura, 'sans-serif';
+   font-family: 'Open Sans', sans-serif;
+   padding: 10px;
+   font-size: 28px;
+   margin-bottom: 10px;
+    display             : table;
+    line-height         : normal;
+    vertical-align      : middle;  
 }
 
 .fig-caption {
@@ -96,15 +108,15 @@ margin-top: -50px;
 }
 
 .main-img {
-    opacity: 0.8;
+    opacity: 0.9;
     height: 75%;
     width: 100%;
 }
 
 .for-margins {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+     margin: 0 auto;
+    width: 85%;
+    padding-bottom: 20px;
 }
 .title-box {
     position: absolute;
@@ -135,10 +147,6 @@ margin-top: -50px;
     height: 75%;
 }
 
-.row-left{
-    text-align: left;
-}
-
 .contact-img{
     height: 600px;
     width: 600px;
@@ -160,9 +168,9 @@ margin-top: -50px;
 }
 
 .contact-info {
-    font-family: Jura, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /*color: #052F6D;*/
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .contact-container{
@@ -178,8 +186,8 @@ margin-top: -50px;
 
 
 .input-head{
-     font-family: Jura, sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .border-div {
@@ -199,47 +207,6 @@ margin-top: -50px;
     vertical-align: sub;
 }
 
-/*.send {
-    margin-bottom: 10px;
-}*/
-
-
-/*portfolio*/
-/*#thumb-carousel {
-    display: block;
-    text-align: start;
-    float: none;
-    position: relative;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-    z-index: auto;
-    width: 508px;
-    height: 72px;
-    margin: 0px;
-    overflow: hidden;
-}
-
-#thumbs {
-    text-align: left;
-    float: none;
-    position: absolute;
-    top: 0px;
-    right: auto;
-    bottom: auto;
-    left: 0px;
-    margin: 0px;
-    width: 3048px;
-    height: 72px;
-    z-index: auto;
-}*/
-
-
-/*.carousel-slide {
-    width: 200px;
-    height: 100px;
-}*/
 
 
 #thumbs img {
@@ -254,8 +221,8 @@ margin-top: -50px;
 
 
 .contact-info-header{
-    font-family: Jura, sans-serif;
-    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
     font-weight: bold;
     padding-bottom: 15px;
 }
@@ -351,10 +318,86 @@ header {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1050px) and (min-width: 700px) {
-    body { font-size: 12px; }
-    .dropdown a {font-size: 18px; }
-    .inner-content p {font-size: 14px; }
+
+@media screen and (max-width: 5055px) and (min-width: 2051px) {
+    .fig-caption a {
+        font-size: 23px;
+    }
+    .navbar a {
+        font-size: 21px;
+    }
+    .inner-content p {font-size: 18px; }
+    .contact-info {
+        font-size: 35px;
+    }
+    .contact-info-header {
+        font-size: 50px;
+    }
+    .contact-row {
+        margin-top: 100px;
+    }
+    .input-head {
+        font-size: 17px;
+    }
+    .title-box h1 {
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width: 2050px) and (min-width: 1250px) {
+    .fig-caption a {
+        font-size: 23px;
+    }
+    .navbar a {
+        font-size: 18px;
+    }
+    .inner-content p {font-size: 16px; }
+    .contact-info {
+        font-size: 30px;
+    }
+    .contact-info-header {
+        font-size: 45px;
+    }
+    .contact-row {
+        margin-top: 100px;
+    }
+    .title-box h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1249px) and (min-width: 700px) {
+    .fig-caption a {
+        font-size: 18px;
+    }
+    .contact-info {
+        font-size: 25px;
+    }
+    .contact-info-header {
+        font-size: 40px;
+    }
+    .contact-row {
+        margin-top: 50px;
+    }
+    .contact-info {
+        font-size: 30px;
+    }
+    .contact-info-header {
+        font-size: 45px;
+    }
+    .title-box h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width: 700px) {
+    .fkr {
+        display: none;
+    }
+    .title-box h1 {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 699px) and (min-width: 500px){
@@ -364,6 +407,17 @@ header {
     .contact-info { font-size: 18px; }
     .dropdown a {font-size: 18px; }
     .inner-content p {font-size: 12px; }
+    .contact-row {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .fkr {
+        display: none;
+    }
+    .img-col {
+        height: 60%;
+    }
+
 }
 
 
@@ -375,6 +429,22 @@ header {
     .contact-info-header { font-size: 28px; }
     .dropdown a {font-size: 16px; }
     .inner-content p {font-size: 10px; }
+    .fig-caption a {
+        font-size: 16px;
+    }
+    .contact-row {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .fkr {
+        display: none;
+    }
+    .img-col {
+        height: 60%;
+    }
+    .title-box h1 {
+        font-size: 20px;
+    }
 }
 
 
@@ -393,6 +463,7 @@ header {
 
 #image img {
     width: 100%;
+    height: 50%;
 }
 
 .bio-header {
@@ -407,8 +478,8 @@ header {
 }
 
 .single-img {
-    width: 48%;
-    height: 20%;
+    width: 100%;
+    height: 50%;
 }
 
 /*.welcome {
@@ -419,8 +490,20 @@ header {
     margin-left: 0px;
 }*/
 
+.img-responsive {
+height: 500px;
+}
 
+.secondLine {
+    margin-top: -15px;
+    padding-left: 50px;
+}
+.glyphicon {
+    margin-bottom: 7px;
+}
 
-
-
-
+/*.contactLogo {
+    width: 250px;
+    height:200px;
+}
+*/

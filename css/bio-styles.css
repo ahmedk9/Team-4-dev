@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
+@import url(http://fonts.googleapis.com/css?family=Jura:400,600);
 
 body {
     background-image: url(../img/notebook.png);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Jura', sans-serif;
     font-size: 18px;
 }
 
@@ -94,7 +95,7 @@ margin-top: -50px;
     height: 75px;
     width: 6em;
     border-radius: 3px;
-        position: absolute
+    position: absolute
 }
 
 .row-left{
@@ -139,7 +140,7 @@ width: 600px;
 
 
 .input-head{
-    font-family: 'Lusitana', sans-serif;
+    font-family: 'Jura', sans-serif;
     font-size: 16px;
 }
 
@@ -213,7 +214,4 @@ nav a:hover{
 	margin-top: 9px;
 	font-size: 16px;
 }
-
-
-
 
