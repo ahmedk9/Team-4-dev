@@ -458,7 +458,8 @@ height: 500px;
 }
 
 .secondLine {
-    padding-left: 45px;
+    margin-top: -15px;
+    padding-left: 50px;
 }
 .glyphicon {
     margin-bottom: 7px;
