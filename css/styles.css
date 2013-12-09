@@ -74,7 +74,13 @@ margin-top: -50px;
     margin-top: 10px;
     border-bottom:  #373725 solid 5px;
     height: 33%;
+}
 
+.blue-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 15px;
+    width: 300px;
 }
 
 .home-link:hover {
