@@ -89,10 +89,7 @@ margin-top: -50px;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a6254c25b6ebd715bb8fb76423e41c1d15437b0c
 .adj{
    font-family: 'Open Sans', sans-serif;
    padding: 10px;
@@ -333,8 +330,11 @@ header {
     .contact-info-header {
         font-size: 50px;
     }
-    .row {
+    .contact-row {
         margin-top: 100px;
+    }
+    .input-head {
+        font-size: 17px;
     }
 
 }
@@ -353,7 +353,7 @@ header {
     .contact-info-header {
         font-size: 45px;
     }
-    .row {
+    .contact-row {
         margin-top: 100px;
     }
 }
@@ -368,8 +368,14 @@ header {
     .contact-info-header {
         font-size: 40px;
     }
-    .row {
-        margin-top: 100px;
+    .contact-row {
+        margin-top: 50px;
+    }
+    .contact-info {
+        font-size: 30px;
+    }
+    .contact-info-header {
+        font-size: 45px;
     }
 }
 
@@ -380,8 +386,9 @@ header {
     .contact-info { font-size: 18px; }
     .dropdown a {font-size: 18px; }
     .inner-content p {font-size: 12px; }
-    .row {
-        margin-top: 100px;
+    .contact-row {
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }
 
@@ -396,6 +403,10 @@ header {
     .inner-content p {font-size: 10px; }
     .fig-caption a {
         font-size: 16px;
+    }
+    .contact-row {
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }
 
