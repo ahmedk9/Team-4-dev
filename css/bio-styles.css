@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
+@import url(http://fonts.googleapis.com/css?family=Jura:400,600);
+
+body {
+    background-image: url(../img/notebook.png);
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+}
+
+
+.border-top {
+background-color: #052F6D;
+height: 120px;
+top: 50%;
+margin-top: -50px;
+
+}
+
+.logo-2 {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    border-radius: 40px;
+    border: #052F6D solid 2px;
+}
+
+.col-md-12 {
+    border: black solid 4px;
+    height: 75%;
+    width: 100%;
+    padding: 0px;
+    -moz-box-shadow: -5px -5px 5px #888;
+    -webkit-box-shadow: -5px -5px 5px #888;
+    box-shadow: -5px -5px 5px #888;
+}
+
+
+.main-img {
+    opacity: 0.8;
+    height: 75%;
+    width: 100%;
+}
+
+.for-margins {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-box {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    color: #FFF;
+    background-color: rgba(0,0,0,.6);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.text-form {
+    color: #FFF;
+    background-color: rgba(0,0,0,.3);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.left {
+    background-color: white;
+    border-right: blue solid 4px;
+}
+
+.right {
+    background-color: #0F4DA8;
+    border-left: blue solid 1px;
+    color: black;
+}
+
+.main-img {
+    height: 75%;
+}
+
+
+
+.container {
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    left: 0px;
+    height: 75px;
+    width: 6em;
+    border-radius: 3px;
+    position: absolute
+}
+
+.row-left{
+    text-align: left;
+}
+
+.contact-img{
+height: 600px;
+width: 600px;
+}
+
+.forum{
+    position: relative;
+}
+
+.ryan-pic{
+    height: 200px;
+    width: 200px;
+}
+
+.cont-page-img{
+    height: 400px;
+    width: 600px;
+
+}
+
+.contact-info{
+    color: #052F6D;
+    font-size: 18px;
+
+}
+
+.contact-container{
+   background-image: url(../img/notebook.png);
+}
+
+#bio-container {
+    margin: 0 auto;
+    padding: 40px 20px 40px 20px;
+    width: 980px;
+}
+
+
+.input-head{
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+}
+
+/*NAVBAR */
+
+.navbar {
+	min-height: 0px;
+	margin-bottom: 0px;
+}
+
+
+.navbar-header {
+	padding-right: 60px;
+    margin-bottom: -10px;
+}
+
+
+.navbar-logo img {
+    width: 50px;
+    border-radius: 3px;
+    margin-top: 6px;
+    vertical-align: initial;
+}
+
+.navbar-logo {
+	line-height: 49px;
+	padding-left: 20px;
+	color: #999;
+}
+
+nav {
+	text-align: center;    
+	z-index: -1;
+	min-height: 0;
+	margin-bottom: 0;
+}
+
+
+nav ul li {
+    font-size: 18px;
+    border-right: 1px solid white;
+    padding-left: 9px;
+    padding-right: 9px; 
+}
+
+
+nav ul li:first-child {
+	border-left: 1px solid white;
+}
+
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #999;
+}
+
+.services {
+	display: inline-block;
+	width: 140px;
+	line-height: 19px;
+	margin-top: 9px;
+	font-size: 16px;
+}
+
