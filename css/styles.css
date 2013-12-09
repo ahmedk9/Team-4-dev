@@ -415,3 +415,7 @@ header {
 .img-responsive {
 height: 500px;
 }
+
+.secondLine {
+    padding-left: 35px;
+}
