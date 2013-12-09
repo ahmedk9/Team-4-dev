@@ -89,16 +89,12 @@ margin-top: -50px;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a6254c25b6ebd715bb8fb76423e41c1d15437b0c
 .adj{
    font-family: 'Open Sans', sans-serif;
    padding: 10px;
    font-size: 28px;
    margin-bottom: 10px;
-    display             : inline-block;     /* FF3, Opera, Safari */
+    display             : table;
     line-height         : normal;
     vertical-align      : middle;  
 }
