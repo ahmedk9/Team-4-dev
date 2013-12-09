@@ -39,12 +39,6 @@ margin-top: -50px;
     width: 100%;
 }
 
-.home-col-img2{
-    border-bottom: #373725 solid 5px;
-    height: 33%;
-    width: 100%;
-}
-
 .home-col-img:hover {
     opacity: 1;
 }
@@ -75,12 +69,17 @@ margin-top: -50px;
     padding-right: 0px;
 }
 
-
 .blue{
     background-color: rgb(88,144,177);
     color: white;
     border-bottom:  #373725 solid 5px;
     padding: 10px;
+    height: 33%;
+    width: 100%;
+}
+
+.adj {
+    text-align: center;
 }
 
 .blue-text {
@@ -93,7 +92,6 @@ margin-top: -50px;
 .home-link:hover {
     text-decoration: none;
 }
-
 
 .fig-caption {
     font-size: 18px;
@@ -138,10 +136,6 @@ margin-top: -50px;
 
 .main-img {
     height: 75%;
-}
-
-.row-left{
-    text-align: left;
 }
 
 .contact-img{
