@@ -41,7 +41,7 @@ margin-top: -50px;
 
 .home-col-img2{
     border-bottom: #373725 solid 5px;
-    height: 50%;
+    height: 33%;
     width: 100%;
 }
 
@@ -71,7 +71,13 @@ margin-top: -50px;
 
 .home-col {
     margin-top: 10px;
-    padding-left: 0px;
+    padding: 0px;
+}
+
+.home-col2{
+    margin-top: 10px;
+    padding: 0px;
+    padding-left: 5px;
 }
 
 .blue{
