@@ -371,8 +371,8 @@ header {
     .fig-caption a {
         font-size: 18px;
     }
-    .contact-info {
-        font-size: 25px;
+    .contact-info .secondLine {
+        padding-left: 39px;
     }
     .contact-info-header {
         font-size: 40px;
@@ -381,10 +381,10 @@ header {
         margin-top: 50px;
     }
     .contact-info {
-        font-size: 30px;
+        font-size: 20px;
     }
     .contact-info-header {
-        font-size: 45px;
+        font-size: 35px;
     }
     .title-box h1 {
         font-size: 40px;
