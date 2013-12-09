@@ -457,6 +457,9 @@ header {
 height: 500px;
 }
 
+.secondLine {
+    padding-left: 45px;
+}
 .glyphicon {
     margin-bottom: 7px;
 }
