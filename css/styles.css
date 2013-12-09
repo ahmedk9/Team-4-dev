@@ -33,7 +33,7 @@ margin-top: -50px;
     padding: 0 15px;
 }
 .home-col-img {
-    opacity: 0.8;
+    opacity: 0.9;
     border-bottom: #373725 solid 5px;
     height: 33%;
     width: 100%;
@@ -114,7 +114,6 @@ margin-top: -50px;
 
 .for-margins {
      margin: 0 auto;
-   /* padding: 40px 20px 40px 20px;*/
     width: 85%;
     padding-bottom: 20px;
 }
@@ -211,47 +210,6 @@ margin-top: -50px;
     vertical-align: sub;
 }
 
-/*.send {
-    margin-bottom: 10px;
-}*/
-
-
-/*portfolio*/
-/*#thumb-carousel {
-    display: block;
-    text-align: start;
-    float: none;
-    position: relative;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-    z-index: auto;
-    width: 508px;
-    height: 72px;
-    margin: 0px;
-    overflow: hidden;
-}
-
-#thumbs {
-    text-align: left;
-    float: none;
-    position: absolute;
-    top: 0px;
-    right: auto;
-    bottom: auto;
-    left: 0px;
-    margin: 0px;
-    width: 3048px;
-    height: 72px;
-    z-index: auto;
-}*/
-
-
-/*.carousel-slide {
-    width: 200px;
-    height: 100px;
-}*/
 
 
 #thumbs img {
@@ -363,10 +321,30 @@ header {
     padding-bottom: 20px;
 }
 
+
+@media screen and (max-width: 5055px) and (min-width: 2051px) {
+    .fig-caption a {
+        font-size: 23px;
+    }
+    .navbar a {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width: 2050px) and (min-width: 1500px) {
+    .fig-caption a {
+        font-size: 23px;
+    }
+    .navbar a {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 1050px) and (min-width: 700px) {
-    body { font-size: 12px; }
-    .dropdown a {font-size: 18px; }
-    .inner-content p {font-size: 14px; }
+    .fig-caption a {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 699px) and (min-width: 500px){
@@ -387,6 +365,9 @@ header {
     .contact-info-header { font-size: 28px; }
     .dropdown a {font-size: 16px; }
     .inner-content p {font-size: 10px; }
+    .fig-caption a {
+        font-size: 16px;
+    }
 }
 
 
