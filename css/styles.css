@@ -502,6 +502,13 @@ height: 500px;
     margin-bottom: 7px;
 }
 
+#blue {
+    opacity: 1;
+}
+#blue:hover {
+    opacity: 1;
+}
+
 /*.contactLogo {
     width: 250px;
     height:200px;
