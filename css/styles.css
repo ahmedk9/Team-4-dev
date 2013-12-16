@@ -89,10 +89,7 @@ margin-top: -50px;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 869aa7922716f43b2cfa0201f374d9c96e07dd69
 .adj{
    font-family: 'Open Sans', sans-serif;
    padding: 10px;
@@ -508,6 +505,11 @@ height: 500px;
 #blue:hover {
     opacity: 1;
 }
+
+.contact-info a {
+    color: black;
+}
+
 
 /*.contactLogo {
     width: 250px;
