@@ -25,7 +25,7 @@ $email_subject = "$subject";
 $email_body = "You have received a new message from: $name.\n".
     "Here is the message:\n $message";
     
-$to = "ak_ferrari@hotmail.com";//<== update this to RYAN'S email
+$to = "ryan@ryanclevelandservices.com";//<== update this to RYAN'S email
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Sending the email
